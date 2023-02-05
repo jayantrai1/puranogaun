@@ -1061,6 +1061,9 @@ pre code {
   .offset-sm-11 {
     margin-left: 91.66667%;
   }
+  .img-fluid {
+    max-height: fit-content;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1227,6 +1230,7 @@ pre code {
   .offset-md-11 {
     margin-left: 91.66667%;
   }
+
 }
 
 @media (min-width: 992px) {
@@ -9689,7 +9693,7 @@ h6,
 
 @media (min-width: 768px) {
   .news-lg {
-    height: 75%;
+    height: 350px;
   }
   .news-lg .border {
     border-left: none !important;
